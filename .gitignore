@@ -1,0 +1,20 @@
+# pycharm
+.idea/
+.DS_Store
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+local_settings.py
+*.sqlite3
+
+# database migrations
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# 支付宝支付
+应用公钥2048.txt
+应用私钥2048.txt
+支付宝公钥.txt

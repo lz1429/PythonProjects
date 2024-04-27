@@ -62,7 +62,6 @@ urlpatterns = [
         url(r'^statistics/$', statistics.statistics, name='statistics'),  # 统计
         url(r'^statistics/priority/$', statistics.statistics_priority, name='statistics_priority'),  # 饼状图
         url(r'^statistics/project/user/$', statistics.statistics_project_user, name='statistics_project_user'),  # 柱状图
-
     ], None)),
 
     url(r'^invite/join/(?P<code>\w+)/$', issues.invite_join, name='invite_join'),  # 访问邀请码
